@@ -1,0 +1,37 @@
+# eGauge Power Analysis Requirements
+# Python 3.9+ required
+
+# Core dependencies
+requests>=2.32.0
+pandas>=2.2.0
+numpy>=1.26.0
+matplotlib>=3.9.0
+seaborn>=0.13.0
+
+# Optional: eGauge Python library for advanced features
+# Uncomment if you want to use the official library
+# egauge-python>=0.8.1
+
+# Data export formats (optional)
+# openpyxl>=3.1.2  # For Excel export
+# xlsxwriter>=3.1.9  # Alternative Excel writer
+
+# Additional visualization libraries (optional)
+# plotly>=5.18.0  # Interactive charts
+# bokeh>=3.3.0  # Web-based visualizations
+
+# Database support (optional)
+# sqlalchemy>=2.0.0  # Database ORM
+# psycopg2-binary>=2.9.9  # PostgreSQL adapter
+
+# Scheduling and automation (optional)
+# schedule>=1.2.0  # Task scheduling
+# APScheduler>=3.10.0  # Advanced scheduling
+
+# Web dashboard (optional)
+# flask>=3.0.0  # Web framework
+# dash>=2.14.0  # Dashboard framework
+
+# Testing
+# pytest>=7.4.0
+# pytest-cov>=4.1.0
